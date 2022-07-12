@@ -1,0 +1,782 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1657382295234705, "dur": 1200900, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657382295236472, "dur": 34999, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657382295271767, "dur": 1153176, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657382296424969, "dur": 10635, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657382302547993, "dur": 1339452, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657382302548292, "dur": 2195, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657382302550489, "dur": 1335145, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657382303885636, "dur": 1809, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657382303888042, "dur": 19, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1657382302579743, "dur":1539, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382302581294, "dur":189, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1657382302581528, "dur":27, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1657382302581556, "dur":604, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1657382302582193, "dur":1124, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382302583317, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382303875136, "dur":327, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382303875463, "dur":27, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382303875490, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382303875497, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382303875509, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382303875512, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382303875520, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382303875522, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382303875529, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382303875531, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382303875539, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382303875541, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382303875547, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382303875549, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382303875556, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382303875558, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382303875565, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382303875567, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382303875573, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382303875575, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382303875581, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382303875583, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382303875590, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382303875592, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382303875599, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382303875607, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382303875689, "dur":2266, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1657382302582198, "dur":1127, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382302583328, "dur":7583, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382302590929, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1657382302590930, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382302591048, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1657382302591050, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382302591137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382302592122, "dur":3563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1657382302595689, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1657382302595779, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382302595856, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382302596762, "dur":1594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1657382302598447, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1657382302598518, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382302598570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382302598581, "dur":81718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1657382302680419, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Valve.Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657382302680507, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382302680590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382302681351, "dur":135930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Valve.Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657382302817399, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657382302817472, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382302817543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382302817553, "dur":56588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657382302874211, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657382302874275, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382302874370, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382302874380, "dur":44300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657382302918747, "dur":78432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657382302997180, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382302997263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382302997273, "dur":2247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657382302999697, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657382302999838, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382302999909, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382302999921, "dur":71280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657382303071262, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657382303071317, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382303071408, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382303071417, "dur":55039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657382303126759, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657382303126843, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382303126945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382303126961, "dur":49673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657382303176704, "dur":103515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657382303280220, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382303280322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382303280332, "dur":1889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657382303282278, "dur":1718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657382303283997, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382303284091, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382303284102, "dur":1340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657382303285501, "dur":72290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657382303357793, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382303357901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382303357912, "dur":1655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657382303359651, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657382303359716, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382303359781, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382303359795, "dur":142984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657382303502838, "dur":76344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/SteamVR_Actions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657382303579184, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382303579268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382303579278, "dur":4520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/SteamVR_Actions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657382303583864, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657382303583934, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382303583999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657382303584009, "dur":291043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657382303875103, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1657382303875105, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657382302582261, "dur":1076, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657382302583338, "dur":7580, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657382302590928, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1657382302591051, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657382302591214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657382302593687, "dur":2382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1657382302596161, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1657382302596239, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657382302596311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657382302596651, "dur":3579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1657382302600319, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne.exe" }}
+,{ "pid":12345, "tid":2, "ts":1657382302600381, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657382302600430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657382302600435, "dur":151448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne.exe" }}
+,{ "pid":12345, "tid":2, "ts":1657382302751973, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657382302752071, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657382302752133, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657382302752140, "dur":47951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657382302800145, "dur":157684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657382302957830, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657382302957967, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657382302957980, "dur":5142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657382302963190, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657382302963284, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657382302963409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657382302963441, "dur":67446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657382303030968, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657382303031069, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657382303031408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657382303031423, "dur":75483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657382303106993, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657382303107091, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657382303107150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657382303107160, "dur":41085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657382303148330, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657382303148395, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657382303148462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657382303148471, "dur":153125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657382303301697, "dur":25768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657382303327466, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657382303327527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657382303327535, "dur":1269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657382303328862, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657382303328918, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657382303328971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657382303328979, "dur":111544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657382303440573, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657382303440629, "dur":309, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657382303440944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657382303440952, "dur":46626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657382303487635, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657382303487687, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657382303487741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657382303487750, "dur":182343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657382303670156, "dur":205014, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382302582246, "dur":1085, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382302583332, "dur":7588, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382302590929, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1657382302591047, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382302591174, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382302593785, "dur":1951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1657382302595818, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1657382302595922, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382302596014, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382302596450, "dur":3587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1657382302600112, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657382302600182, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382302600233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382302600239, "dur":109826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657382302710161, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657382302710245, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382302710335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382302710347, "dur":65005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657382302775422, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657382302775484, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382302775550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382302775560, "dur":50123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657382302825742, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657382302825805, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382302825860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382302825869, "dur":38014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657382302864742, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657382302864821, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382302864898, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382302864907, "dur":81240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657382302946214, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657382302946339, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382302946405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382302946416, "dur":82879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657382303029406, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657382303029482, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382303029540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382303029549, "dur":75332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657382303104995, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657382303105185, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382303105259, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382303105303, "dur":38974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657382303144347, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657382303144469, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382303144579, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382303144597, "dur":88818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657382303234077, "dur":672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657382303234750, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382303234919, "dur":352, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382303235298, "dur":108516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657382303343885, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657382303343946, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382303344009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382303344019, "dur":168450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657382303512530, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657382303512580, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382303512640, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382303512649, "dur":133472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657382303646182, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1657382303646259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382303646266, "dur":1579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1657382303647955, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1657382303648094, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382303648102, "dur":3505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1657382303651666, "dur":1280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1657382303652947, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382303653019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382303653029, "dur":2080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1657382303655172, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1657382303655243, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382303655253, "dur":1804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1657382303657131, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1657382303657202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657382303657209, "dur":2799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1657382303660076, "dur":215062, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657382302582292, "dur":1050, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657382302583342, "dur":7629, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657382302590972, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1657382302591141, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657382302591345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657382302693368, "dur":2585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1657382302696140, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657382302696226, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657382302696291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657382302696302, "dur":64204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657382302760572, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657382302760632, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657382302760706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657382302760716, "dur":171751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657382302932544, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657382302932602, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657382302932669, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657382302932678, "dur":48941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657382302981689, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657382302981748, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657382302981806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657382302981815, "dur":73692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657382303055598, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657382303055667, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657382303055774, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657382303055787, "dur":46871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657382303102777, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657382303102846, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657382303102909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657382303102950, "dur":86901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657382303189908, "dur":169996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657382303359904, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657382303359997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657382303360006, "dur":1742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657382303361809, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657382303361868, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657382303361961, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657382303361971, "dur":37607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657382303399640, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657382303399712, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657382303399773, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657382303399781, "dur":107777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657382303507629, "dur":94569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/SteamVR.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657382303602219, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657382303602231, "dur":2392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/SteamVR.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657382303604750, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657382303604859, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657382303605042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657382303605059, "dur":216139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657382303821268, "dur":53866, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657382302582337, "dur":1011, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657382302583348, "dur":7617, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657382302590968, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1657382302591131, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657382302591283, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657382302681386, "dur":1586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1657382302683046, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657382302683114, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657382302683173, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657382302683184, "dur":64036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657382302747286, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657382302747342, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657382302747391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657382302747398, "dur":49167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657382302796651, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657382302796736, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657382302796849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657382302796860, "dur":144005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657382302940964, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657382302941043, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657382302941166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657382302941177, "dur":102988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657382303044260, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657382303044453, "dur":381, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657382303045306, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657382303045316, "dur":205528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657382303250913, "dur":57439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657382303308353, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657382303308492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657382303308500, "dur":2456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657382303311030, "dur":40016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657382303351047, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657382303351120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657382303351128, "dur":1401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657382303352583, "dur":668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657382303353252, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657382303353347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657382303353356, "dur":129348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657382303482767, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657382303482829, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657382303482895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657382303482905, "dur":233239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657382303716194, "dur":158945, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657382302582404, "dur":950, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657382302583354, "dur":7605, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657382302590961, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1657382302591165, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657382302591348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657382302693940, "dur":27190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1657382302721218, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657382302721340, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657382302721424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657382302721433, "dur":102635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657382302824142, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657382302824203, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657382302824262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657382302824271, "dur":88619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657382302913561, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657382302913638, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657382302913705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657382302913715, "dur":120707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657382303034490, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657382303034555, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657382303034625, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657382303034634, "dur":73380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657382303108121, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657382303108238, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657382303108309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657382303108319, "dur":66154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657382303174546, "dur":119945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657382303294492, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657382303294622, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657382303294634, "dur":4588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657382303299282, "dur":3444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657382303302727, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657382303302809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657382303302819, "dur":1293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657382303304187, "dur":34942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657382303339130, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657382303339234, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657382303339246, "dur":1715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657382303341056, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657382303341126, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657382303341206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657382303341216, "dur":159129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657382303500401, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657382303500456, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657382303500519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657382303500528, "dur":199993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657382303700590, "dur":174569, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382302582435, "dur":924, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382302583359, "dur":7594, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382302590955, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1657382302591092, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382302591243, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382302595106, "dur":1926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1657382302597117, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1657382302597196, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382302597290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382302597298, "dur":1511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1657382302598908, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657382302598985, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382302599056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382302599496, "dur":80814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657382302680397, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1657382302680470, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382302680545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382302681158, "dur":8834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1657382302690072, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657382302690153, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382302690216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382302690226, "dur":56550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657382302746838, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657382302747186, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382302747271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382302747281, "dur":134476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657382302881825, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657382302881886, "dur":238, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382302882131, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382302882141, "dur":117813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657382303000270, "dur":1102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657382303001373, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382303001462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382303001472, "dur":263661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657382303265218, "dur":1254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657382303266474, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382303266593, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382303266606, "dur":1657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657382303268332, "dur":39629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657382303307962, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382303308064, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382303308105, "dur":2651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657382303310830, "dur":2235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657382303313066, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382303313160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382303313170, "dur":1249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657382303314475, "dur":1222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657382303315697, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382303315790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382303315799, "dur":1769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657382303317632, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657382303317694, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382303317753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382303317762, "dur":108929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657382303426773, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657382303426840, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382303426899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657382303426908, "dur":263341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657382303690307, "dur":184857, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382302582467, "dur":897, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382302583365, "dur":7581, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382302590950, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1657382302591123, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382302591269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382302680825, "dur":2885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1657382302683780, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657382302683849, "dur":315, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382302684171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382302684183, "dur":68846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657382302753116, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657382302753184, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382302753290, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382302753300, "dur":51936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657382302805294, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657382302805352, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382302805408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382302805418, "dur":115564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657382302921047, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657382302921105, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382302921172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382302921183, "dur":67143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657382302988404, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657382302988512, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382302988702, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382302988724, "dur":53486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657382303042336, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657382303042539, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303042690, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303042711, "dur":65461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657382303108285, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657382303108350, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303108438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303108445, "dur":59669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657382303168325, "dur":217210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.XR.OpenVR.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657382303385536, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303385685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303385694, "dur":15240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.XR.OpenVR.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657382303400991, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657382303401043, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303401099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303401108, "dur":209725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657382303610941, "dur":16496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657382303627438, "dur":321, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303627801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303627812, "dur":1872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657382303629741, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/UnitySubsystems/XRSDKOpenVR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":8, "ts":1657382303629807, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303629896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303630599, "dur":2514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/UnitySubsystems/XRSDKOpenVR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":8, "ts":1657382303633186, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/SteamVR/binding_vive_pro.json" }}
+,{ "pid":12345, "tid":8, "ts":1657382303633255, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303633305, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303633586, "dur":1778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/SteamVR/binding_vive_pro.json" }}
+,{ "pid":12345, "tid":8, "ts":1657382303635416, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/SteamVR/binding_vive.json" }}
+,{ "pid":12345, "tid":8, "ts":1657382303635483, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303635537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303635549, "dur":1332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/SteamVR/binding_vive.json" }}
+,{ "pid":12345, "tid":8, "ts":1657382303636961, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/SteamVR/binding_index_hmd.json" }}
+,{ "pid":12345, "tid":8, "ts":1657382303637024, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303637083, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303637092, "dur":1507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/SteamVR/binding_index_hmd.json" }}
+,{ "pid":12345, "tid":8, "ts":1657382303638658, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/SteamVR/bindings_vive_controller.json" }}
+,{ "pid":12345, "tid":8, "ts":1657382303638721, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303638923, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303638933, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/SteamVR/bindings_vive_controller.json" }}
+,{ "pid":12345, "tid":8, "ts":1657382303640483, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/SteamVR/bindings_logitech_stylus.json" }}
+,{ "pid":12345, "tid":8, "ts":1657382303640575, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303640636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303640644, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/SteamVR/bindings_logitech_stylus.json" }}
+,{ "pid":12345, "tid":8, "ts":1657382303642109, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/SteamVR/bindings_holographic_controller.json" }}
+,{ "pid":12345, "tid":8, "ts":1657382303642176, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303642241, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303642248, "dur":1729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/SteamVR/bindings_holographic_controller.json" }}
+,{ "pid":12345, "tid":8, "ts":1657382303644049, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/SteamVR/actions.json" }}
+,{ "pid":12345, "tid":8, "ts":1657382303644127, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303644217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303644229, "dur":1330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/SteamVR/actions.json" }}
+,{ "pid":12345, "tid":8, "ts":1657382303645620, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1657382303645694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303645756, "dur":1791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1657382303647606, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1657382303647672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303647681, "dur":1358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1657382303649107, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1657382303649201, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303649212, "dur":2100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1657382303651373, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1657382303651600, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303651656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303651667, "dur":1636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1657382303653358, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1657382303653475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303653481, "dur":2526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1657382303656072, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1657382303656136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303656144, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1657382303657628, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1657382303657710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657382303657716, "dur":2472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1657382303660249, "dur":214888, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657382302582496, "dur":874, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657382302583370, "dur":7564, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657382302590938, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1657382302591085, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657382302591238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657382302593967, "dur":2383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1657382302596423, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1657382302596499, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657382302596661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657382302596805, "dur":3278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1657382302600157, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1657382302600231, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657382302600279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657382302600284, "dur":81912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1657382302682285, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657382302682502, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657382302682562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657382302682624, "dur":86046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657382302768842, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657382302768942, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657382302769005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657382302769013, "dur":51703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657382302820778, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657382302820834, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657382302820887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657382302820897, "dur":127102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657382302948063, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657382302948146, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657382302948209, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657382302948345, "dur":215783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657382303164193, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657382303164293, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657382303164428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657382303164435, "dur":75052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657382303239548, "dur":150628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657382303390177, "dur":7752, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657382303397940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657382303397952, "dur":1881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657382303399891, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657382303399957, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657382303400015, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657382303400022, "dur":39039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657382303439116, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657382303439168, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657382303439243, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657382303439252, "dur":262167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657382303701479, "dur":173672, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657382302582543, "dur":831, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657382302583375, "dur":7565, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657382302590943, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1657382302591109, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657382302591275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657382302680413, "dur":1923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1657382302682429, "dur":66343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657382302748773, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657382302748868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657382302748879, "dur":1878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657382302750821, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657382302750886, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657382302751054, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657382302751068, "dur":62208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657382302813371, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657382302813438, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657382302813495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657382302813505, "dur":76764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657382302890356, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657382302890422, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657382302890479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657382302890488, "dur":47341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657382302937890, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657382302937959, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657382302938027, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657382302938036, "dur":54416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657382302992553, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657382302992648, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657382302992772, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657382302992792, "dur":51481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657382303044349, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657382303044532, "dur":201, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657382303044740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657382303044751, "dur":55902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657382303100713, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657382303100769, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657382303100837, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657382303100846, "dur":249491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657382303350427, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657382303350485, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657382303350687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657382303350698, "dur":230540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657382303581293, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657382303581362, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657382303581428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657382303581440, "dur":71553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657382303653059, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1657382303653141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657382303653149, "dur":4000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1657382303657216, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1657382303657294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657382303657303, "dur":2324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1657382303659698, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1657382303659894, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657382303659973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657382303659984, "dur":1408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1657382303661447, "dur":213685, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382302582583, "dur":797, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382302583380, "dur":7549, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382302590932, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1657382302591047, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382302591199, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382302593502, "dur":2480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1657382302596132, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1657382302596190, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382302596281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382302596458, "dur":2828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1657382302599351, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1657382302599426, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382302599510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382302599573, "dur":88593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1657382302688296, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1657382302688371, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382302688435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382302688445, "dur":63249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1657382302751755, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1657382302751814, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382302751873, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382302751883, "dur":47976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1657382302799937, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1657382302800022, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382302800086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382302800095, "dur":188588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1657382302988791, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1657382302988946, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382302989015, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382302989061, "dur":59684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1657382303048936, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1657382303049108, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382303049298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382303049341, "dur":127283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1657382303176698, "dur":63122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1657382303239821, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382303239889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382303239898, "dur":1521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1657382303241481, "dur":378464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1657382303619946, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382303620084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382303620094, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1657382303622286, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Plugins/x86_64/openvr_api.dll" }}
+,{ "pid":12345, "tid":11, "ts":1657382303622355, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382303622428, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382303623303, "dur":2132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Plugins/x86_64/openvr_api.dll" }}
+,{ "pid":12345, "tid":11, "ts":1657382303625511, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Plugins/x86_64/ucrtbased.dll" }}
+,{ "pid":12345, "tid":11, "ts":1657382303625594, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382303625661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382303625926, "dur":3571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Plugins/x86_64/ucrtbased.dll" }}
+,{ "pid":12345, "tid":11, "ts":1657382303629581, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Plugins/x86_64/XRSDKOpenVR.dll" }}
+,{ "pid":12345, "tid":11, "ts":1657382303629658, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382303629716, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382303629726, "dur":1836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Plugins/x86_64/XRSDKOpenVR.dll" }}
+,{ "pid":12345, "tid":11, "ts":1657382303631630, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/SteamVR/binding_vive_tracker_camera.json" }}
+,{ "pid":12345, "tid":11, "ts":1657382303631696, "dur":219, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382303631950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382303632538, "dur":1184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/SteamVR/binding_vive_tracker_camera.json" }}
+,{ "pid":12345, "tid":11, "ts":1657382303633785, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/SteamVR/binding_vive_cosmos.json" }}
+,{ "pid":12345, "tid":11, "ts":1657382303633865, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382303633980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382303633989, "dur":1458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/SteamVR/binding_vive_cosmos.json" }}
+,{ "pid":12345, "tid":11, "ts":1657382303635498, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/SteamVR/binding_rift.json" }}
+,{ "pid":12345, "tid":11, "ts":1657382303635552, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382303635610, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382303635620, "dur":1321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/SteamVR/binding_rift.json" }}
+,{ "pid":12345, "tid":11, "ts":1657382303636993, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/SteamVR/binding_holographic_hmd.json" }}
+,{ "pid":12345, "tid":11, "ts":1657382303637050, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382303637102, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382303637109, "dur":1394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/SteamVR/binding_holographic_hmd.json" }}
+,{ "pid":12345, "tid":11, "ts":1657382303638568, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/SteamVR/bindings_vive_cosmos_controller.json" }}
+,{ "pid":12345, "tid":11, "ts":1657382303638637, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382303638716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382303638728, "dur":1447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/SteamVR/bindings_vive_cosmos_controller.json" }}
+,{ "pid":12345, "tid":11, "ts":1657382303640245, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/SteamVR/bindings_oculus_touch.json" }}
+,{ "pid":12345, "tid":11, "ts":1657382303640309, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382303640367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382303640377, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/SteamVR/bindings_oculus_touch.json" }}
+,{ "pid":12345, "tid":11, "ts":1657382303642056, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/SteamVR/bindings_knuckles.json" }}
+,{ "pid":12345, "tid":11, "ts":1657382303642118, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382303642217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382303642226, "dur":1894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/SteamVR/bindings_knuckles.json" }}
+,{ "pid":12345, "tid":11, "ts":1657382303644224, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":11, "ts":1657382303644447, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382303644509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382303644516, "dur":1208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":11, "ts":1657382303645937, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1657382303646014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657382303646021, "dur":19207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1657382303665292, "dur":209841, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657382302582614, "dur":771, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657382302583385, "dur":7537, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657382302590928, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1657382302591144, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657382302591302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657382302684325, "dur":2091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1657382302686514, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657382302686669, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657382302686739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657382302686750, "dur":81332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657382302768147, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657382302768217, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657382302768271, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657382302768280, "dur":93292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657382302861633, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657382302861688, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657382302861748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657382302861758, "dur":116559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657382302978467, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657382302978836, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657382302978918, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657382302978928, "dur":181985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657382303161056, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657382303161140, "dur":2641, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657382303163863, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657382303163875, "dur":81826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657382303245795, "dur":17697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657382303263493, "dur":221, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657382303263723, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657382303263734, "dur":1348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657382303265148, "dur":58216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657382303323366, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657382303323463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657382303323474, "dur":3554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657382303327089, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657382303327151, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657382303327238, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657382303327247, "dur":384765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/simona/Desktop/TheOne/UnitySpiel/TheOne_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657382303712076, "dur":163069, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657382303879737, "dur":3155, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1657382303888147, "dur": 2433, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657382303888029, "dur": 2579, "ph": "X", "name": "Write chrome-trace events", "args": {} },
